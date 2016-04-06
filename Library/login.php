@@ -62,9 +62,7 @@ $numb_row= mysqli_num_rows($sqlquery);
     }
 else
         {  
-            echo"<script type="text/javascript">";
-                echo"alert("Login Failed click OK to continue");"
-            echo"</script>"
+            
             
             header("Location:http://localhost/Library/index.php");
         }
