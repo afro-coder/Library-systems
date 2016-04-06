@@ -35,7 +35,7 @@ $user=mysqli_real_escape_string($_POST["user"]);
 //$passwd=$_POST['passwd']; 
 $passwd=mysqli_real_escape_string($_POST["passwd"]);
 
-//encpassws=($passwd);                                             //encrypting password%s
+//encpassws=($passwd);                                             //encrypting password
 
 $sql="SELECT  `userid` ,  `username` ,  `passwd` ,  `usertype` ,`userdoj` FROM  `users` WHERE username =  '$user' and passwd='$passwd' ";
 
